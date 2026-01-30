@@ -16,6 +16,10 @@ public class KisiYonetimi {
         //E maili tutar ve şifre değiştirirken veya kredi kartı eklerken o e maile eklemesi için gerekli
         return eMailTut;
     }
+    
+    public static void seteMailTut(String email) {
+        eMailTut = email;
+    }
 
     // Üye olma methodu
     public void uyeOl() throws BilgiHatasiException {
